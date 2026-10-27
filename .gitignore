@@ -1,0 +1,24 @@
+# data and builds are never committed
+data/
+build/
+dist/
+*.wav
+*.flac
+*.opus
+*.amr
+*.tar.gz
+*.tgz
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# machines
+.DS_Store
+.env
+.env.*

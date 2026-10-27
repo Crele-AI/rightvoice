@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use RightVoice, cite it as RightVoice (Crele) with the URL below."
+title: "RightVoice: a benchmark for keeping one voice from a conversation"
+type: dataset
+authors:
+  - name: "Crele"
+    website: "https://www.crele.co"
+url: "https://www.crele.co/benchmarks/rightvoice"
+repository-code: "https://github.com/Crele-AI/rightvoice"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-10-27
+abstract: >-
+  RightVoice measures one job: given a recording of a two-person conversation and a
+  few seconds of one person's voice, return only that person. It scores target words
+  lost, wrong-voice words and talk over silence from the output audio alone, so any
+  file-in, file-out system can be scored. Audio and manifests are CC BY 4.0; code is
+  Apache-2.0.
